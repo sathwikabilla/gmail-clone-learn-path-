@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+.EmailSection{
+    display: flex;    
+    flex-direction: column;     
+}
+
+.EmailSection_settings{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+}
+
+.emailsectionlist{
+ display: flex;
+ justify-content: space-between;
+ position: sticky;
+ top: 0;
+ background-color: white;
+ border-bottom: 1px solid blue;
+ z-index:999 ;
+}
+
+
+.emailrow_time{
+    padding-right: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
